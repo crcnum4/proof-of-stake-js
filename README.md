@@ -22,7 +22,7 @@ npm install
 
 ```
 npm run ico
-npm run de v
+npm run dev
 npm run dev1
 npm run dev2
 npm run dev3
