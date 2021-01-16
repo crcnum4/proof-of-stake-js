@@ -39,21 +39,25 @@ npm run dev3
 | dev3    | 3003     | 5003    |
 
 <p>To award coins to the dev nodes use the following api endpoint to get the address:</p>
+
 ```
 http://localhost:{api port}/public-key
 ```
+
 <p>With the address create a post request to the ICO transact end point and create the following request:</p>
+
 ```
-//url: 
+//url:
 POST localhost:3005/ico/transact
-// body: 
+// body:
 {
     "to": "{address}",
     "amount": {amount},
     "type": "TRANSACTION"
 }
 ```
-<p>** note that 5 transactions must be posted before the block will be created and the transactions applied to balances **</p>
+
+**note that 5 transactions must be posted before the block will be created and the transactions applied to balances**
 
 <p>Other endpoints: **note all ico endpoints are preceded with /ico</p>
 
