@@ -29,13 +29,13 @@ npm run dev3
 ```
 
 <p>the following items will run each one on the following urls:</p>
-| command | api port | WS Port |
-| ------- | -------- | ------- |
-| ico     | 3005     | 5005    |
-| dev     | 3000     | 5000    |
-| dev1    | 3001     | 5001    |
-| dev2    | 3002     | 5002    |
-| dev3    | 3003     | 5003    |
+command | api port | WS Port 
+------- | -------- | ------- 
+ico     | 3005     | 5005    
+dev     | 3000     | 5000    
+dev1    | 3001     | 5001    
+dev2    | 3002     | 5002    
+dev3    | 3003     | 5003
 
 <p>To award coins to the dev nodes use the following api endpoint to get the address:</p>
 ```
