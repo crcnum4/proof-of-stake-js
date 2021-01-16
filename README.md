@@ -22,7 +22,7 @@ npm install
 
 ```
 npm run ico
-npm run dev
+npm run de v
 npm run dev1
 npm run dev2
 npm run dev3
@@ -41,7 +41,7 @@ npm run dev3
 <p>To award coins to the dev nodes use the following api endpoint to get the address:</p>
 
 ```
-http://localhost:{api port}/public-key
+localhost:{api port}/public-key
 ```
 
 <p>With the address create a post request to the ICO transact end point and create the following request:</p>
