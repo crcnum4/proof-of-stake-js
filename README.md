@@ -61,7 +61,7 @@ POST localhost:3005/ico/transact
 
 <p>Other endpoints:</p>
 
-**note all ico endpoints are preceded with /ico**
+**note all endpoints are preceded with /ico on the ico node**
 
 | Verb | endPoint                 | Usage                                       |
 | ---- | ------------------------ | ------------------------------------------- |
