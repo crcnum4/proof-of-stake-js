@@ -29,10 +29,6 @@ npm run dev3
 ```
 
 <p>the following items will run each one on the following urls:</p>
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
 
 | command | api port | WS Port |
 | ------- | -------- | ------- |
@@ -60,14 +56,15 @@ POST localhost:3005/ico/transact
 <p>** note that 5 transactions must be posted before the block will be created and the transactions applied to balances **</p>
 
 <p>Other endpoints: **note all ico endpoints are preceded with /ico</p>
-Verb | endPoint                 | Usage                                       
----- | ------------------------ | ------------------------------------------- 
-GET  | /blocks                  | Get all blocks in the chain                 
-GET  | /transactions            | get all pending transactions                
-GET  | /public-key              | get address of the node                     
-GET  | /balance                 | get balance of node                         
-GET  | /ico/balance-of/:address | ico node only, get balance of given address 
-POST | /transact                | Create transaction from node Use above obj
+
+| Verb | endPoint                 | Usage                                       |
+| ---- | ------------------------ | ------------------------------------------- |
+| GET  | /blocks                  | Get all blocks in the chain                 |
+| GET  | /transactions            | get all pending transactions                |
+| GET  | /public-key              | get address of the node                     |
+| GET  | /balance                 | get balance of node                         |
+| GET  | /ico/balance-of/:address | ico node only, get balance of given address |
+| POST | /transact                | Create transaction from node Use above obj  |
 
 ### Transaction types:
 
