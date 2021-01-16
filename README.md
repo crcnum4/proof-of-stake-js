@@ -59,7 +59,9 @@ POST localhost:3005/ico/transact
 
 **note that 5 transactions must be posted before the block will be created and the transactions applied to balances**
 
-<p>Other endpoints: **note all ico endpoints are preceded with /ico**</p>
+<p>Other endpoints:</p>
+
+**note all ico endpoints are preceded with /ico**
 
 | Verb | endPoint                 | Usage                                       |
 | ---- | ------------------------ | ------------------------------------------- |
